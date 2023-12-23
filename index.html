@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="./styles/index.css">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- results -->
+    <div class="results">
+      <h3 class="results__title">Your Results</h3>
+      <div class="results__circle">
+        <div class="circle__title">
+          76
+        </div>
+        <p class="circle__of">of 100</p>
+      </div>
+      <h3 class="results__subtitle">
+        Great
+      </h3>
+      <p class="results__content">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </div>
+    <!-- summary -->
+    <div class="summary">
+
+      <div class="summary__title">Sumary</div>
+
+      <!-- grid de dos columnas -->
+      <div class="summary__item">
+
+        <div class="summary__item__left">
+          <img class="summary__item__left-img" src="./assets/images/icon-reaction.svg" alt="Reaction">
+          <div class="summary__item__left-text">Reaction</div>
+        </div>
+
+        <div class="summary__item__right">
+          80 <span class="summary__item__right-text">/ 100</span>
+        </div>
+      </div>
+
+      <!-- grid de dos columnas -->
+      <div class="summary__item">
+
+        <div class="summary__item__left">
+          <img class="summary__item__left-img" src="./assets/images/icon-memory.svg" alt="Reaction">
+          <div class="summary__item__left-text--item2">Memory</div>
+        </div>
+
+        <div class="summary__item__right">
+          92 <span class="summary__item__right-text">/ 100</span>
+        </div>
+      </div>
+
+
+      <!-- grid de dos columnas -->
+      <div class="summary__item--item3">
+
+        <div class="summary__item__left">
+          <img class="summary__item__left-img" src="./assets/images/icon-verbal.svg" alt="Reaction">
+          <div class="summary__item__left-text--item3">Verbal</div>
+        </div>
+
+        <div class="summary__item__right">
+          61 <span class="summary__item__right-text">/ 100</span>
+        </div>
+      </div>
+
+      <!-- grid de dos columnas -->
+      <div class="summary__item--item4">
+
+        <div class="summary__item__left">
+          <img class="summary__item__left-img" src="./assets/images/icon-visual.svg" alt="Reaction">
+          <div class="summary__item__left-text--item4">Visual</div>
+        </div>
+
+        <div class="summary__item__right">
+          72 <span class="summary__item__right-text">/ 100</span>
+        </div>
+      </div>
+
+      <button class="summary__continue">Continue</button>
+
+    </div>
+  </div>
+
+  <!-- Your Result
+  76
+  of 100
+
+  Great
+  You scored higher than 65% of the people who have taken these tests.
+
+  Summary
+
+  Reaction
+  80 / 100
+
+  Memory
+  92 / 100
+
+  Verbal
+  61 / 100
+
+  Visual
+  72 / 100
+
+  Continue-->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/alekelbar">alekelbar</a>.
+  </div>
+</body>
+
+</html>
